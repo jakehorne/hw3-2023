@@ -53,8 +53,11 @@ div{
     border-bottom: none;
     border-left: none;
 }
-.blue h2, .blue p{
+.blue h2{
     color: #C4C4C4;
+}
+.blue p{
+    color: #C4C4C4
 }
 .yellow{
     background-color: #FFFF00;
