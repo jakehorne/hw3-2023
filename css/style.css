@@ -39,31 +39,43 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px #FFFFFF solid;
+    border-left: 5px  #FFFFFF solid;
+    border-top: none;
+    border-right: none;
 }
 .blue{
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px #FFFFFF solid;
+    border-top: 2px #FFFFFF solid;
+    border-bottom: none;
+    border-left: none;
+}
+.blue h2, .blue p{
     color: #C4C4C4;
 }
 .yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px #FFFFFF solid;
+    border-left: 5px #FFFFFF solid;
+    border-top: none;
+    border-right: none;
+}
+.yellow p{
     color: #707070;
 }
 .green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px #FFFFFF solid;
+    border-top: 2px #FFFFFF solid;
+    border-bottom: none;
+    border-left: none;
 }
 footer{
     background: linear-gradient(90deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
@@ -72,8 +84,6 @@ footer{
 footer p{
     font-size: 20px;
     text-align: right;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px 15px 15px 0px;
 }
 
